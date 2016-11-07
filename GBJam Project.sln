@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GBJam Project.CSharp.Plugins", "GBJam Project.CSharp.Plugins.csproj", "{0CEE509A-7C1B-9730-8814-CD3FB4920D51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GBJam Project.CSharp", "GBJam Project.CSharp.csproj", "{68EEF799-C020-90BA-BA52-A60D17F684DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GBJam Project.CSharp.Editor", "GBJam Project.CSharp.Editor.csproj", "{5EA73C11-FAE7-0F5D-F58B-A82C0ABED51E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CEE509A-7C1B-9730-8814-CD3FB4920D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CEE509A-7C1B-9730-8814-CD3FB4920D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CEE509A-7C1B-9730-8814-CD3FB4920D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CEE509A-7C1B-9730-8814-CD3FB4920D51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68EEF799-C020-90BA-BA52-A60D17F684DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68EEF799-C020-90BA-BA52-A60D17F684DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68EEF799-C020-90BA-BA52-A60D17F684DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68EEF799-C020-90BA-BA52-A60D17F684DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EA73C11-FAE7-0F5D-F58B-A82C0ABED51E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EA73C11-FAE7-0F5D-F58B-A82C0ABED51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EA73C11-FAE7-0F5D-F58B-A82C0ABED51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EA73C11-FAE7-0F5D-F58B-A82C0ABED51E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
