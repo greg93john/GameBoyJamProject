@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameBoyJamProject.CSharp.Plugins", "GameBoyJamProject.CSharp.Plugins.csproj", "{3E87C9B1-2BE5-A4F9-D2BA-6B52D25C96EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameBoyJamProject.CSharp", "GameBoyJamProject.CSharp.csproj", "{A3100042-66F0-B9BF-B82E-68CBD9745EA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameBoyJamProject.CSharp.Editor", "GameBoyJamProject.CSharp.Editor.csproj", "{56D8A4BB-9070-29CB-BDA6-D65DA6BD7D2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E87C9B1-2BE5-A4F9-D2BA-6B52D25C96EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E87C9B1-2BE5-A4F9-D2BA-6B52D25C96EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E87C9B1-2BE5-A4F9-D2BA-6B52D25C96EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E87C9B1-2BE5-A4F9-D2BA-6B52D25C96EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3100042-66F0-B9BF-B82E-68CBD9745EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3100042-66F0-B9BF-B82E-68CBD9745EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3100042-66F0-B9BF-B82E-68CBD9745EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3100042-66F0-B9BF-B82E-68CBD9745EA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D8A4BB-9070-29CB-BDA6-D65DA6BD7D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D8A4BB-9070-29CB-BDA6-D65DA6BD7D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D8A4BB-9070-29CB-BDA6-D65DA6BD7D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D8A4BB-9070-29CB-BDA6-D65DA6BD7D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

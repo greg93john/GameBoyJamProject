@@ -7,7 +7,9 @@ using System.Collections;
 public class EnemyBehaviour : MonoBehaviour {
     // public variables
     public float horizontalSpeed, verticalSpeed;
+    public AudioClip deathSound;
     public LayerMask whatIsGround;
+    public GameObject explosionEffect;
 
     // private variables
     private bool grounded;
@@ -15,6 +17,7 @@ public class EnemyBehaviour : MonoBehaviour {
     private Collider2D myCollider;
     private Rigidbody2D myRigidbody;
     private Health myHealth;
+    private Color explosionColor;
 
 	// Use this for initialization
 	void Start () {
@@ -56,5 +59,16 @@ public class EnemyBehaviour : MonoBehaviour {
         myCollider = GetComponent<Collider2D>();
         myRigidbody = GetComponent<Rigidbody2D>();
         myHealth = GetComponent<Health>();
+    }
+
+    void MakeExplosionEffect() {
+        GameObject explosion = (GameObject)Instantiate(explosionEffect);
+        explosion.transform.position = transform.position;
+    }
+
+    public void Die() {
+        AudioSource.PlayClipAtPoint(deathSound,transform.position);
+        MakeExplosionEffect();
+        Destroy(gameObject);
     }
 }

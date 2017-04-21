@@ -7,6 +7,7 @@ using System.Collections;
 public class PlayerController : MonoBehaviour {
 
     // public variables
+    public AudioClip deathSound;
     public Transform barrelEnd, groundCheck;
     public LayerMask whatIsGround;
     public GameObject playerLaser;
@@ -99,6 +100,7 @@ public class PlayerController : MonoBehaviour {
     }
 
     public void Death() {
+        AudioSource.PlayClipAtPoint(deathSound, transform.position);
         Destroy(gameObject);
     }
 

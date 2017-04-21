@@ -5,10 +5,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 447516}
-  - 114: {fileID: 11482358}
+  - component: {fileID: 447516}
+  - component: {fileID: 11482358}
   m_Layer: 0
   m_Name: PlatformSpawner
   m_TagString: Untagged
@@ -21,9 +21,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 486218}
+  - component: {fileID: 486218}
   m_Layer: 0
   m_Name: MaxHeightPoint
   m_TagString: Untagged
@@ -40,11 +40,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -4.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 486218}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &486218
 Transform:
   m_ObjectHideFlags: 1
@@ -54,10 +54,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 447516}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &11482358
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -71,8 +71,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnMarker: {fileID: 0}
   maxHeightPoint: {fileID: 486218}
-  distanceBetweenMin: 9.5
-  distanceBetweenMax: 13
+  distanceBetweenMin: 15
+  distanceBetweenMax: 20
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

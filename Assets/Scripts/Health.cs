@@ -8,13 +8,6 @@ public class Health : MonoBehaviour {
 	void Start () {
 	
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	    if(health <= 0) {
-            Die();
-        }
-	}
 
     void Die() {
         Destroy(gameObject);
@@ -27,7 +20,13 @@ public class Health : MonoBehaviour {
             projectile.Hit();
 
             if(health <= 0) {
-                Die();
+                var enemyGameObject = gameObject.GetComponent<EnemyBehaviour>();
+
+                if (enemyGameObject) {
+                    enemyGameObject.Die();
+                } else {
+                    Debug.Log("GameObject has Health Script, but is not an enemy.");
+                }
             }
         }
     }
